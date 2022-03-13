@@ -38,6 +38,7 @@ h1,
 h2,
 .name {
     font-family: 'Arial Black', 'BlinkMacSystemFont', sans-serif;
+    font-weight: bold;
 
 }
 
@@ -135,14 +136,16 @@ h1 {
 
 .about-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content:center;
 }
 
 .about-content img {
     object-fit: cover;
-    width: 49%;
-    border-radius: 20px;
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    margin-right: 2rem;
 }
 
 .about-text {
@@ -526,10 +529,13 @@ footer {
 
     .about-content {
         display: block;
+        text-align: center;
     }
 
     .about-content img {
-        width: 100%;
+        width: 220px;
+        height:220px;
+        margin: 0 0 1rem 0;
     }
 
     .about-text {
@@ -601,6 +607,10 @@ footer {
 
     .right {
         top: 25rem;
+    }
+    .point-img {
+        display: block;
+        text-align: center;
     }
 
     .point-text:first-child {
