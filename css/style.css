@@ -49,7 +49,10 @@ h2,
 }
 
 .container {
-    padding: 0 10%;
+    padding: 0 16%;
+}
+.about-container {
+    padding: 0;
 }
 
 /* ヘッダー
@@ -58,7 +61,7 @@ header {
     height: 7rem;
     background-color: #F29BA9;
     width: 100%;
-    padding: 2rem 0;
+    padding-top: 3rem;
     box-sizing: border-box;
     z-index: 10;
 }
@@ -165,12 +168,6 @@ h1 {
 
 /* career
 ------------------------------------------------------------*/
-
-.stepbar {
-    margin: 0 auto;
-    width: 80%;
-}
-
 .stepbarwrap {
     margin: 2em 0;
     position: relative;
@@ -257,7 +254,7 @@ h1 {
     font-size: 2rem;
 }
 
-/* work-explanation
+/* work-top
 ------------------------------------------------------------*/
 .work {
     position: relative;
@@ -268,17 +265,17 @@ h1 {
     margin-bottom: 2rem;
 }
 
-.explanation {
+.work-top {
     text-align: center;
     margin-bottom: 3rem;
 }
 
-.explanation ul {
+.work-top ul {
     text-align: left;
     display: inline-block;
 }
 
-.explanation ul li:first-child {
+.work-top ul li:first-child {
     text-align: center;
     margin-bottom: 3rem;
 }
@@ -305,7 +302,7 @@ h1 {
     background-color: #F29BA9;
     padding: 1rem 2rem;
     border: 2px solid #000;
-    margin: 3rem auto 7rem auto;
+    margin: 2rem auto 8rem auto;
     width: 16rem;
     border-radius: 20px;
     box-sizing: border-box;
@@ -325,25 +322,6 @@ h1 {
 
 .btn .fa {
     padding-left: 1rem;
-    box-sizing: border-box;
-}
-
-/* work-site-about
-------------------------------------------------------------*/
-.site-about {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-}
-
-.site-about-text {
-    text-align: left;
-    display: inline-block;
-}
-
-.site-about h4 {
-    font-size: 2rem;
-    margin: 5rem 0 0 0;
 }
 
 
@@ -353,8 +331,7 @@ h1 {
 .point {
     display: flex;
     justify-content: space-evenly;
-    margin: 7rem auto 5rem auto;
-    width: 80%;
+    margin: 7rem 0 5rem 0;
 }
 
 .sp-top-img {
@@ -393,6 +370,11 @@ h5 {
 .point-img {
     display: flex;
     margin: 2rem 0;
+}
+.point-img p {
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .point-text {
@@ -547,10 +529,6 @@ footer {
         margin: 4rem 0 2rem 0;
     }
 
-    .br {
-        display: none;
-    }
-
     /* career
 ------------------------------------*/
     .stepbar {
@@ -612,6 +590,10 @@ footer {
         display: block;
         text-align: center;
     }
+    .point-img p {
+        text-align: left;
+        padding-left: 2rem;
+    }
 
     .point-text:first-child {
         padding-top: 25rem;
@@ -625,11 +607,4 @@ footer {
     .supplement {
         display: block;
     }
-
-    /* footer
-------------------------------------*/
-    footer {
-        height: 2rem;
-    }
-
 }
