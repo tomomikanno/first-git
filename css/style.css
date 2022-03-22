@@ -31,8 +31,6 @@ a {
     color: #000000;
 }
 
-a:hover {}
-
 header,
 h1,
 h2,
@@ -148,7 +146,7 @@ h1 {
     height: 260px;
     width: 260px;
     border-radius: 50%;
-    margin-right: 5rem;
+    margin-right: 2rem;
 }
 
 .about-text {
@@ -323,7 +321,6 @@ h1 {
 .btn .fa {
     padding-left: 1rem;
 }
-
 
 /* work-point
 ------------------------------------------------------------*/
@@ -588,22 +585,18 @@ footer {
     }
     .point-img {
         display: block;
-        text-align: center;
     }
     .point-img p {
         text-align: left;
         padding-left: 2rem;
     }
-
-    .point-text:first-child {
-        padding-top: 25rem;
-    }
+    
 
     .point-content {
         width: 100%;
         padding: 0 0 5rem 0;
     }
-
+    
     .supplement {
         display: block;
     }
